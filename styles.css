@@ -1,0 +1,141 @@
+* {
+  /* border: 1px solid black; */
+  font-family: "Playfair Display";
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  /* Removes the scroll bar  */
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #003459;
+  color: #ffffff;
+  font-size: 20px;
+  padding-bottom: 6px;
+}
+
+.score-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: #007ea7;
+  gap: 10px;
+  color: white;
+  padding-top: 10px;
+}
+
+h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.score-child {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.score {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  width: 160px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #2f6f91;
+}
+
+.text {
+  text-align: center;
+  padding: 20px;
+  background-color: #00b8f5;
+  color: white;
+  font-weight: 900;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  padding: 20px;
+  background-color: #00b8f5;
+}
+
+.choice {
+  padding: 8px;
+  width: 100px;
+  height: 35px;
+  background-color: #006b8f;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-family: "Inter";
+}
+
+.choice:hover {
+  background-color: #0099cc;
+}
+
+.choice:disabled {
+  background-color: #8fb9c9;
+  color: #ffffff;
+}
+
+.outcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+#outcome-list {
+  padding: 5px;
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.outcome-choice {
+  display: flex;
+  gap: 24px;
+}
+
+.display {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-bottom: 2px solid lightblue;
+}
+
+#result {
+  font-weight: 900;
+  font-size: 20px;
+  border: 4px solid black;
+
+  padding: 5px;
+}
+
+.footer {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  background-color: #00171f;
+  color: white;
+  font-family: "Inter";
+}
